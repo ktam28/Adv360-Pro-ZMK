@@ -17,7 +17,6 @@
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
-# Japanese key mapping
         n2_w_jis: ansi_n2_and_at_with_jis {
             compatible = "zmk,behavior-mod-morph";
             label = "ANSI_N2_WITH_JIS";
