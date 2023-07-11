@@ -44,7 +44,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "ANSI_MINUS_WITH_JIS";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp LS(INTERNATIONAL_1)>;
+            bindings = <&kp MINUS>, <&kp LS(INT_RO)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         equal_w_jis: ansi_equal_and_plus_with_jis {
@@ -58,7 +58,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "ANSI_BSLH_WITH_JIS";
             #binding-cells = <0>;
-            bindings = <&kp INTERNATIONAL_3>, <&kp LS(INTERNATIONAL_3)>;
+            bindings = <&kp INT_YEN>, <&kp LS(INT_YEN)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         semi_w_jis: ansi_semi_and_colon_with_jis {
