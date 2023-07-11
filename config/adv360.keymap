@@ -21,6 +21,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
+    #include "local_behaviors.keymap"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
