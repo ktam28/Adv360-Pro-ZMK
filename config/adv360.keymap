@@ -37,7 +37,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-/*
+
         default_layer {
             bindings = <
  &equal_w_jis     &kp N1    &n2_w_jis    &kp N3     &kp N4  &kp N5              &tog 1                                                                     &mo 3  &n6_w_jis  &n7_w_jis     &n8_w_jis    &n9_w_jis    &n0_w_jis  &minus_w_jis
@@ -47,7 +47,7 @@
      &mo 2  &grave_w_jis  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER      &kp SPACE          &kp UP   &kp DOWN  &lbkt_w_jis  &rbkt_w_jis      &mo 2
             >;
         };
-*/
+/*
         default_layer {
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                     &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
@@ -57,7 +57,7 @@
      &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER      &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
-
+*/
         layer_keypad {
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
