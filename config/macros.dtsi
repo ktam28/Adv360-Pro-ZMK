@@ -34,3 +34,108 @@
     #binding-cells = <0>;
     bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
   };
+  n2_w_jis: ansi_n2_and_at_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_N2_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp N2>, <&kp LEFT_BRACKET>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  n6_w_jis: ansi_n6_and_caret_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_N6_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp N6>, <&kp EQUAL>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  n7_w_jis: ansi_n7_and_amps_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_N7_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp N7>, <&kp CARET>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  n8_w_jis: ansi_n8_and_astrk_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_N8_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp N8>, <&kp DOUBLE_QUOTES>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  n9_w_jis: ansi_n9_and_lpar_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_N9_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp N9>, <&kp ASTERISK>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  n0_w_jis: ansi_n0_and_rpar_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_N0_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp N0>, <&kp LEFT_PARENTHESIS>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  minus_w_jis: ansi_minus_and_under_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_MINUS_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp MINUS>, <&kp LS(INT_RO)>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  equal_w_jis: ansi_equal_and_plus_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_PLUS_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp UNDERSCORE>, <&kp COLON>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  bslh_w_jis: ansi_bslh_and_pipe_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_BSLH_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp INT_YEN>, <&kp LS(INT_YEN)>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  semi_w_jis: ansi_semi_and_colon_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_SEMI_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp SEMICOLON>, <&kp APOSTROPHE>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  apos_w_jis: ansi_apos_and_dqt_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_APOS_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp AMPERSAND>, <&kp AT_SIGN>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  grave_w_jis: ansi_grave_and_tilde_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_GRAVE_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp LEFT_BRACE>, <&kp PLUS>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  lbkt_w_jis: ansi_lbkt_and_lbrc_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_LBKT_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp RIGHT_BRACKET>, <&kp RIGHT_BRACE>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  rbkt_w_jis: ansi_rbkt_and_rbrc_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_RBKT_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp NON_US_HASH>, <&kp TILDE2>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+  caps_w_jis: ansi_caps_with_jis {
+      compatible = "zmk,behavior-mod-morph";
+      label = "ANSI_CAPS_WITH_JIS";
+      #binding-cells = <0>;
+      bindings = <&kp LS(CAPSLOCK)>, <&kp RS(CAPSLOCK)>;
+      mods = <(MOD_RSFT)>;
+  };
